@@ -1,0 +1,55 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  margin-top: 15px;
+  width: 100%;
+  height: 50px;
+
+  padding-left: 10px;
+  border-radius: 5px;
+  background: #332d2d;
+
+  gap:15px
+}
+
+.icons_wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+
+  height: 50px;
+  &:hover{
+    background: #755f5f;
+  }
+}
+
+
+.icon {
+  width: 100px;
+  cursor: pointer;
+}
+
+.added {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+
+  width: 35px;
+  height: 35px;
+
+  border-radius: 25px;
+  background: #5b4d4d;
+
+  cursor: pointer;
+
+  &:hover {
+    background: #817171;
+  }
+}

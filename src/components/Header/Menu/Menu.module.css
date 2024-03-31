@@ -1,0 +1,19 @@
+.menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  width: 60px;
+  gap: 3px;
+  cursor: pointer;
+}
+.menu:active {
+  padding-top: 3px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+/*# sourceMappingURL=Menu.module.css.map */

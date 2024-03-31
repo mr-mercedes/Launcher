@@ -1,0 +1,17 @@
+.links_wrapper {
+  width: 50%;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.links a {
+  color: white;
+}
+
+/*# sourceMappingURL=Links.module.css.map */

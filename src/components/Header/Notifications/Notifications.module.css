@@ -1,0 +1,16 @@
+.notification {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.notification:hover {
+  border-radius: 5px;
+  background: #322e2e;
+}
+
+/*# sourceMappingURL=Notifications.module.css.map */
